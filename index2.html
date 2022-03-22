@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <title>Snobella</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper nav flex j-between aligin-items-center">
+        <a class="call" href="tel:+748 383 23 14">
+          <img src="img/calll.svg" alt="" />
+          +748 383 23 14
+        </a>
+        <ul class="flex">
+          <li><a class="pad" href="#">Terms of Use</a></li>
+          <li><a class="pad" href="#">FAQ</a></li>
+          <li><a class="pad" href="#">Customer service</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="nav1 wrapper flex j-between aligin-center">
+      <a class="logo" href="index.html">Snobella</a>
+      <div class="input flex">
+        <input type="text" class="pad2" placeholder="Search all product" />
+        <button><img src="img/search.png" alt="" /></button>
+      </div>
+      <div class="list">
+        <ul class="flex">
+          <li>
+            <a href="#"
+              ><img src="img/Vector (1).png" alt="" /><span>Sing up</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="img/Vector (2).png" alt="" /><span>Wishlist</span></a
+            >
+          </li>
+          <li>
+            <a class="open-basket" href="#"
+              ><img src="img/bag.png" alt="" /><span>Basket</span></a
+            >
+
+            <ul class="basket-modal"></ul>
+          </li>
+        </ul>
+      </div>
+      <img class="ddd" src="img/moon.png" id="icone" />
+    </div>
+    <div class="nav2">
+      <div class="wrapper">
+        <ul class="flex">
+          <li><a href="#">Evening bags</a></li>
+          <li><a href="#">Shoulder bag</a></li>
+          <li><a href="#">Backpack</a></li>
+          <li><a href="#">Handbag</a></li>
+          <li><a href="#">Postman bag</a></li>
+          <li><a href="#">Belt bags</a></li>
+        </ul>
+      </div>
+    </div>
+    <ul class="home wrapper flex">
+      <li>Home <i class="fas fa-chevron-right"></i></li>
+      <li>Shoulder Bags</li>
+    </ul>
+
+    <div class="wrapper flex j-between">
+      <div class="swiper product-detailslider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/handbag3.png" alt="" /></div>
+          <div class="swiper-slide"><img src="img/handbag1.png" alt="" /></div>
+          <div class="swiper-slide"><img src="img/handbag2.png" alt="" /></div>
+          <div class="swiper-slide"><img src="img/handbag1.png" alt="" /></div>
+          <div class="swiper-slide"><img src="img/handbag3.png" alt="" /></div>
+          <div class="swiper-slide"><img src="img/handbag3.png" alt="" /></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      <div class="mane-img">
+        <span class="about"></span>
+        <span class="heart"><i class="far fa-heart"></i></span>
+      </div>
+      <div class="mane-text">
+        <h2 id="product_name"></h2>
+        <span class="reyting"></span>
+        <span>5.0 | 2 reviews</span>
+        <div class="pieces flex j-between">
+          <div class="pieces-box">
+            <span>2-9 pieces</span>
+            <span>US $20.00</span>
+          </div>
+          <div class="pieces-box">
+            <span>2-9 pieces</span>
+            <span>US $20.00</span>
+          </div>
+          <div class="pieces-box">
+            <span>2-9 pieces</span>
+            <span>US $20.00</span>
+          </div>
+          <div class="pieces-box">
+            <span>2-9 pieces</span>
+            <span>US $20.00</span>
+          </div>
+        </div>
+        <div class="specifications flex j-between">
+          <div class="sizes">
+            <h3>Size</h3>
+            <ul class="sizes-ul flex">
+              <li>XS</li>
+              <li>S</li>
+              <li>M</li>
+            </ul>
+          </div>
+          <div class="colors">
+            <h3>Color</h3>
+            <ul class="colors-ul flex">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+        <div class="payment flex j-between">
+          <button class="cash1">Add to card</button>
+          <button class="cash2">Cash payment</button>
+        </div>
+        <a href="#">WhatsApp Order</a>
+      </div>
+    </div>
+    <div class="reviews wrapper flex">
+      <div class="flex lenght-reviews">
+        <h2 class="acctive-h2" id="firsth2">Product Description</h2>
+        <h2 id="secondh2">Reviews (3)</h2>
+      </div>
+      <div class="coment1 ">
+        <span>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+          <br />
+          <br />
+          Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur.
+        </span>
+      </div>
+      <div class="coment2">
+        <div class="smith1">
+          <span class="smith">John Smith</span>
+          <span
+            ><img src="img/starr.png" alt="" /><img src="img/starr.png" alt=""
+          /></span>
+          <p class="smithh">09 July, 2021</p>
+          <span class="smithhh"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco</span
+          >
+        </div>
+        <div class="smith1">
+          <span class="smith">John Smith</span>
+          <span
+            ><img src="img/starr.png" alt="" /><img src="img/starr.png" alt=""
+          /></span>
+          <p class="smithh">09 July, 2021</p>
+          <span class="smithhh"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco</span
+          >
+        </div>
+        <div class="smith1">
+          <span class="smith">John Smith</span>
+          <span
+            ><img src="img/starr.png" alt="" /><img src="img/starr.png" alt=""
+          /></span>
+          <p class="smithh">09 July, 2021</p>
+          <span class="smithhh"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="flex j-between">
+        <h1 class="fon">You may also like</h1>
+        <span class="icontext fon"
+          >View all products <i class="fas fa-chevron-right iconsize"></i
+        ></span>
+      </div>
+      <div class="handbags owl-carousel"></div>
+    </div>
+
+    <div class="buus wrapper flex j-between">
+      <div class="buses">
+        <img src="img/transport 1.png" alt="" />
+        <p>Guaranteed delivery</p>
+        <span class="bueses">
+          Consectetur adipiscing<br />
+          sed do eiusmod tempor<br />
+          incididunt ut labore</span
+        >
+      </div>
+      <div class="buses">
+        <img src="img/transport 1.png" alt="" />
+        <p>Do not come back</p>
+        <span class="bueses">
+          Consectetur adipiscing<br />
+          sed do eiusmod tempor<br />
+          incididunt ut labore</span
+        >
+      </div>
+      <div class="buses">
+        <img src="img/transport 1.png" alt="" />
+        <p>Safe and secure shopping</p>
+        <span class="bueses">
+          Consectetur adipiscing<br />
+          sed do eiusmod tempor<br />
+          incididunt ut labore</span
+        >
+      </div>
+      <div class="buses">
+        <img src="img/transport 1.png" alt="" />
+        <p>Payment at the door or online</p>
+        <span class="bueses">
+          Consectetur adipiscing<br />
+          sed do eiusmod tempor<br />
+          incididunt ut labore</span
+        >
+      </div>
+    </div>
+
+    <div class="smoke">
+      <div class="wrapper">
+        <div class="footer flex j-between">
+          <a class="logo" href="#">Snobella</a>
+          <input
+            type="text"
+            class="inpt pad2"
+            placeholder="Search all product"
+          />
+          <i class="icn fas fa-search"></i>
+        </div>
+      </div>
+
+      <div class="line"></div>
+      <div class="wrapper smoke">
+        <div class="information">
+          <div class="flex j-between">
+            <div class="text1">
+              <ul>
+                <li>
+                  The wise man therefore always holds selectionThe wise man
+                  therefore always rejects pleasures to secure other greater
+                </li>
+                <li>
+                  <a class="style" href="#"
+                    ><i class="fas fa-envelope"></i>Snobella@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fas fa-phone-alt"></i>+7483832314</a>
+                </li>
+                <li class="telegram flex">
+                  <a href="#">
+                    <i class="fab fa-telegram-plane"></i>Send message</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="text2">
+              <ul>
+                <li><h3>Shop</h3></li>
+                <li><span>Shoulder Bag</span></li>
+                <li><span>Backpack</span></li>
+                <li><span>Hand Bag</span></li>
+                <li><span>Tote Bag</span></li>
+                <li><span>Evening bags</span></li>
+                <li><span>Purse</span></li>
+              </ul>
+            </div>
+            <div class="text3">
+              <ul>
+                <li><h3>Company</h3></li>
+                <li><span>About us</span></li>
+                <li><span>Contact</span></li>
+                <li><span>Terms of Use</span></li>
+                <li><span>Customer service</span></li>
+              </ul>
+            </div>
+            <div class="text4">
+              <ul>
+                <li><h3>Help</h3></li>
+                <li><span>FAQ</span></li>
+                <li><span>Delivery</span></li>
+                <li><span>Cancellation of the order</span></li>
+                <li><span>Don't go back</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="finish flex j-between aligin-center">
+        <span>© 2020. All rights reserved.</span>
+        <ul class="flex">
+          <li><i class="fab fa-instagram"></i></li>
+          <li><i class="fab fa-facebook-f"></i></li>
+          <li><i class="fab fa-whatsapp"></i></li>
+        </ul>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="app2.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

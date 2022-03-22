@@ -1,0 +1,165 @@
+{
+  "cantalar": [
+    {
+      "id": 1,
+      "name": "Shoulder  bags",
+      "img": "img/sumka1.svg"
+    },
+    {
+      "id": 2,
+      "name": "Hand bag",
+      "img": "img/sumka2.svg"
+    },
+    {
+      "id": 3,
+      "name": "Backpack",
+      "img": "img/sumka3.svg"
+    },
+    {
+      "id": 4,
+      "name": "Evenings bags",
+      "img": "img/sumka4.svg"
+    }
+  ],
+  "cantalar2": [
+    {
+      "id": 1,
+      "img": "img/handbag1.png",
+      "stars": 4,
+      "description": " 1Shoulder Bag Leather Bag Leather undertakes laborious physical physical ",
+      "info": "New",
+      "price": 890,
+      "discount": 340
+    },
+    {
+      "id": 2,
+      "img": "img/handbag2.png",
+      "stars": 3,
+      "description": "2 2Shoulder Bag Leather Bag Leather undertakes laborious physical physical ",
+      "info": "30%",
+      "price": 500,
+      "discount": 140
+    },
+    {
+      "id": 3,
+      "img": "img/handbag3.png",
+      "stars": 4,
+      "description": " 3Shoulder Bag Leather Bag Leather undertakes laborious physical physical ",
+      "info": "20%",
+      "price": 700,
+      "discount": 260
+    },
+    {
+      "id": 4,
+      "img": "img/handbag1.png",
+      "stars": 2,
+      "description": "Shoulder Bag Leather Bag Leather undertakes laborious physical physical ",
+      "info": "60%",
+      "price": 700,
+      "discount": 260
+    },
+    {
+      "id": 5,
+      "img": "img/handbag2.png",
+      "stars": 2,
+      "description": "Shoulder Bag Leather Bag Leather undertakes laborious physical physical ",
+      "info": "new",
+      "price": 700,
+      "discount": 260
+    }
+  ],
+  "cantalar3": [
+    {
+      "id": 11,
+      "img": "img/bestbag1.png",
+      "stars": 4,
+      "description": "Shoulder Bag Leather Bag Leather undertakes laborious physical physical ",
+      "info": "New",
+      "price": 890,
+      "discount": 340
+    },
+    {
+      "id": 12,
+      "img": "img/bestbag2.png",
+      "stars": 3,
+      "description": "Shoulder Bag Leather Bag Leather undertakes laborious physical physical ",
+      "info": "30%",
+      "price": 500,
+      "discount": 140
+    },
+    {
+      "id": 13,
+      "img": "img/bestbag3.png",
+      "stars": 4,
+      "description": "Shoulder Bag Leather Bag Leather undertakes laborious physical physical ",
+      "info": "20%",
+      "price": 700,
+      "discount": 260
+    },
+    {
+      "id": 14,
+      "img": "img/handbag1.png",
+      "stars": 4,
+      "description": "Shoulder Bag Leather Bag Leather undertakes laborious physical physical ",
+      "info": "60%",
+      "price": 700,
+      "discount": 260
+    },
+    {
+      "id": 15,
+      "img": "img/handbag2.png",
+      "stars": 4,
+      "description": "Shoulder Bag Leather Bag Leather undertakes laborious physical physical ",
+      "info": "new",
+      "price": 700,
+      "discount": 260
+    }
+  ],
+  "cantalar4": [
+    {
+      "id": 21,
+      "img": "img/kisbag1.png",
+      "stars": 4,
+      "description": "Shoulder Bag Leather Bag Leather undertakes laborious physical physical ",
+      "info": "New",
+      "price": 890,
+      "discount": 340
+    },
+    {
+      "id": 22,
+      "img": "img/handbag2.png",
+      "stars": 4,
+      "description": "Shoulder Bag Leather Bag Leather undertakes laborious physical physical ",
+      "info": "30%",
+      "price": 500,
+      "discount": 140
+    },
+    {
+      "id": 23,
+      "img": "img/kisbag3.png",
+      "stars": 4,
+      "description": "Shoulder Bag Leather Bag Leather undertakes laborious physical physical ",
+      "info": "20%",
+      "price": 700,
+      "discount": 260
+    },
+    {
+      "id": 24,
+      "img": "img/handbag1.png",
+      "stars": 4,
+      "description": "Shoulder Bag Leather Bag Leather undertakes laborious physical physical ",
+      "info": "60%",
+      "price": 700,
+      "discount": 260
+    },
+    {
+      "id": 25,
+      "img": "img/handbag2.png",
+      "stars": 4,
+      "description": "Shoulder Bag Leather Bag Leather undertakes laborious physical physical ",
+      "info": "new",
+      "price": 700,
+      "discount": 260
+    }
+  ]
+}
